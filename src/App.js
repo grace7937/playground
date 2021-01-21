@@ -1,14 +1,11 @@
-import {Fragment} from 'react';
 import ColorBox from 'react';
 
 
 const App = () => {
-
-    return 
-    <Fragment>
-    <ColorBox />
-    </Fragment>
-    
+    return (
+        <div>
+            <ColorBox/>
+        </div> 
+    );
 }
-
 export default App;

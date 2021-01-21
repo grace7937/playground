@@ -1,17 +1,12 @@
-import color from "react";
-import ColorContext from 'react':
+import {useContext} from 'react'import ColorContext from './color';
 
 
 const ColorBox= () => {
 
-    return
-
-    <ColorContext.consumer>
+    const color = useContext(ColorContext);
     
-    <div></div>
-    
-    </ColorContext.consumer>
-
-}
-
+    return(
+        <div>{color}</div>
+    );
+};
 export default ColorBox;
